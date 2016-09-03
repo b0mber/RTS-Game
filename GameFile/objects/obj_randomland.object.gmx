@@ -34,7 +34,13 @@
       instance_change(obj_forest, false);
       
       else
-        instance_change(obj_grass, false);
+      
+      if random (20) &gt;= 19
+            instance_change(obj_mountain, false);
+      
+        else
+        
+          instance_change(obj_grass, false);
 </string>
           </argument>
         </arguments>

@@ -10,6 +10,10 @@
     <sprite>sprites\spr_water</sprite>
     <sprite>sprites\spr_forest</sprite>
     <sprite>sprites\spr_load</sprite>
+    <sprite>sprites\spr_mountain</sprite>
+    <sprite>sprites\spr_iron</sprite>
+    <sprite>sprites\spr_coal</sprite>
+    <sprite>sprites\spr_gold</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -21,6 +25,7 @@
     <object>objects\obj_forest</object>
     <object>objects\obj_load</object>
     <object>objects\obj_controller</object>
+    <object>objects\obj_mountain</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
